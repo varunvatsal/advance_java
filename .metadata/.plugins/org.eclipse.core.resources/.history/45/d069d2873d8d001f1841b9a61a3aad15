@@ -1,0 +1,8 @@
+package SpringCore;
+
+public class Lion implements Animal{
+	
+	public void sound() {
+		System.out.println("sound is roor...");
+	}
+}

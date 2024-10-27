@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+/Users/varunvatsal/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+1948367852.index
+796667103.index
+1539372278.index
+2468366917.index
+2408459361.index
+144482225.index
+2038532339.index

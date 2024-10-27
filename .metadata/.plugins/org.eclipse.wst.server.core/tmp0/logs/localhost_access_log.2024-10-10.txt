@@ -1,0 +1,5 @@
+127.0.0.1 - - [10/Oct/2024:16:37:38 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [10/Oct/2024:16:37:38 +0530] "GET /servlet-task1/first.html HTTP/1.1" 200 417
+0:0:0:0:0:0:0:1 - - [10/Oct/2024:16:37:39 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [10/Oct/2024:16:37:53 +0530] "GET /servlet-task1/first?name=varun+vatsal&email=varunvatsal963%40gmail.com&phone=06202347066 HTTP/1.1" 200 73
+0:0:0:0:0:0:0:1 - - [10/Oct/2024:16:41:30 +0530] "GET /servlet-task1/first?name=varun+vatsal&email=varunvatsal963%40gmail.com&phone=06202347066 HTTP/1.1" 200 73

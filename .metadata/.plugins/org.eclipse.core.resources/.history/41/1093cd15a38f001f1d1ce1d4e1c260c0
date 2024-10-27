@@ -1,0 +1,15 @@
+package com.jsp.SpringBoot_item.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.jsp.SpringBoot_item.dao.ItemDao;
+
+@RestController
+public class ItemController {
+	
+	@Autowired
+	private ItemDao itemDao;
+	
+	
+}

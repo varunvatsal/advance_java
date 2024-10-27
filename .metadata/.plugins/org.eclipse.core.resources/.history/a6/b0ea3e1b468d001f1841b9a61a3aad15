@@ -1,0 +1,9 @@
+package SpringCore;
+
+public class Person {
+	private Item item;
+	
+	void iteUsed() {
+		item.used();
+	}
+}

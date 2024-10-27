@@ -1,0 +1,36 @@
+package com.jsp.SpringBoot_item.dto;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
+public class Item {
+	
+	@Id
+	private int Id;
+	private String name;
+	private double cost;
+	public int getId() {
+		return Id;
+	}
+	public void setId(int id) {
+		Id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public double getCost() {
+		return cost;
+	}
+	public void setCost(double cost) {
+		this.cost = cost;
+	}
+	@Override
+	public String toString() {
+		return "Item [Id=" + Id + ", name=" + name + ", cost=" + cost + "]";
+	}
+	
+}
